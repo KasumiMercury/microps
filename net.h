@@ -34,8 +34,11 @@ struct net_device {
     uint16_t alen;
     uint8_t addr[NET_DEVICE_ADDR_LEN];
     uint8_t broadcast[NET_DEVICE_ADDR_LEN];
+    struct net_device_ops *ops; // デバイス固有の処理を行う制御ルーチンへのポインタ
+    void *priv; // デバイスドライバ内部のプライベートなデータの紐づけ
 };
 
+// デバイスドライバの制御ルーチンを参照する関数ポインタ群
 struct net_device_ops {
     int (*open)(struct net_device *dev);
     int (*close)(struct net_device *dev);
