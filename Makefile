@@ -35,6 +35,9 @@ DEPFLAGS = -MMD -MP -MF $(DEPDIR)/$(@F:.o=.d)
 
 all: $(EXES)
 
+compile_commands.json: $(SRCS)
+	bear -- $(MAKE) -B all
+
 $(EXES): %.exe : %.o $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
