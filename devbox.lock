@@ -1,0 +1,245 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "clang-tools@latest": {
+      "last_modified": "2026-03-02T11:03:52Z",
+      "resolved": "github:NixOS/nixpkgs/dc7513872406b53d2ff417a003895d6daffdff2f#clang-tools",
+      "source": "devbox-search",
+      "version": "21.1.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zpn7cbl85mx31prrh7rvwdmbsldij3l3-clang-tools-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zpn7cbl85mx31prrh7rvwdmbsldij3l3-clang-tools-21.1.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1x8w06m7g99mrwg6pnpghzb28r2gimjd-clang-tools-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1x8w06m7g99mrwg6pnpghzb28r2gimjd-clang-tools-21.1.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lix14r33m174csabl4cb1c8jvyq27xqr-clang-tools-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lix14r33m174csabl4cb1c8jvyq27xqr-clang-tools-21.1.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hjs8834ci9wizkc7ypmwyxnpghscl128-clang-tools-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hjs8834ci9wizkc7ypmwyxnpghscl128-clang-tools-21.1.8"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-02-24T08:56:33Z",
+      "resolved": "github:NixOS/nixpkgs/ea7f1f06811ce7fcc81d6c6fd4213150c23edcf2?lastModified=1771923393&narHash=sha256-Fy0%2BUXELv9hOE8WjYhJt8fMDLYTU2Dqn3cX4BwoGBos%3D"
+    },
+    "glibc@latest": {
+      "last_modified": "2026-03-11T12:14:37Z",
+      "resolved": "github:NixOS/nixpkgs/75690239f08f885ca9b0267580101f60d10fbe62#glibc",
+      "source": "devbox-search",
+      "version": "2.42-51",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/99al6q9wd3jg1qs43fvmllx7vakazm8x-glibc-2.42-51",
+              "default": true
+            },
+            {
+              "name": "bin",
+              "path": "/nix/store/93vwmb9i93554b872y61v0hv9gb3ca7z-glibc-2.42-51-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/5b6ghd5by9mv1wq35s8nsq1nlnb2ypqx-glibc-2.42-51-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/3s5wwsbvb03zznqqwx6ksmjwkmy7rjq0-glibc-2.42-51-dev"
+            },
+            {
+              "name": "getent",
+              "path": "/nix/store/iphq327inajghsdpy7d43hzlr0vrr7nd-glibc-2.42-51-getent"
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/z91vq6f118gxcmh6ksc8r5hs6c2l2d8s-glibc-2.42-51-static"
+            }
+          ],
+          "store_path": "/nix/store/99al6q9wd3jg1qs43fvmllx7vakazm8x-glibc-2.42-51"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l0l2ll1lmylczj1ihqn351af2kyp5x19-glibc-2.42-51",
+              "default": true
+            },
+            {
+              "name": "bin",
+              "path": "/nix/store/2c48s343k15i0cmwb9cp1vi6randmzcw-glibc-2.42-51-bin",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/n4mkb0x0l9l3ablc077hq3f6f53m65yx-glibc-2.42-51-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/j8irrc0mpx029dw0rmadsjylg7h31ync-glibc-2.42-51-dev"
+            },
+            {
+              "name": "getent",
+              "path": "/nix/store/xh61l51mf0k5v3209gk0y4f43phlmj6z-glibc-2.42-51-getent"
+            },
+            {
+              "name": "static",
+              "path": "/nix/store/dra84lgfpv7lkbq1lz8ngc2sczqnd0js-glibc-2.42-51-static"
+            }
+          ],
+          "store_path": "/nix/store/l0l2ll1lmylczj1ihqn351af2kyp5x19-glibc-2.42-51"
+        }
+      }
+    },
+    "iproute2@latest": {
+      "last_modified": "2026-03-10T02:35:18Z",
+      "resolved": "github:NixOS/nixpkgs/e607cb5360ff1234862ac9f8839522becb853bb9#iproute2",
+      "source": "devbox-search",
+      "version": "6.18.0",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xdd9xgsqpv2l5yg72d59z8qy3i8q0c1d-iproute2-6.18.0",
+              "default": true
+            },
+            {
+              "name": "scripts",
+              "path": "/nix/store/5v5gj2an1viirj2xvqsc5za763y8czyc-iproute2-6.18.0-scripts"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/yw79kjrsp753q0yirrxdfdmg57m8qj3a-iproute2-6.18.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/xdd9xgsqpv2l5yg72d59z8qy3i8q0c1d-iproute2-6.18.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c9bn9jz0f89hhy5n1m7k4svlb79i33r5-iproute2-6.18.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/wnb7jzdv9qzr8csdrdalf5nss1xh1n0l-iproute2-6.18.0-dev"
+            },
+            {
+              "name": "scripts",
+              "path": "/nix/store/9bg7pidbd2yyfdd7b1b57g2r08hv94cw-iproute2-6.18.0-scripts"
+            }
+          ],
+          "store_path": "/nix/store/c9bn9jz0f89hhy5n1m7k4svlb79i33r5-iproute2-6.18.0"
+        }
+      }
+    },
+    "iputils@latest": {
+      "last_modified": "2026-02-23T15:40:43Z",
+      "resolved": "github:NixOS/nixpkgs/80d901ec0377e19ac3f7bb8c035201e2e098cc97#iputils",
+      "source": "devbox-search",
+      "version": "20250605",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/71inp17yk4xcxg8gsim77gxk2npy112s-iputils-20250605",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/1hvkkq0vwzvbg0pj3c8g6zpnc0035nif-iputils-20250605-man",
+              "default": true
+            },
+            {
+              "name": "apparmor",
+              "path": "/nix/store/s4j5a677pgnw8hwbh1c6w2iw5xss66gw-iputils-20250605-apparmor"
+            }
+          ],
+          "store_path": "/nix/store/71inp17yk4xcxg8gsim77gxk2npy112s-iputils-20250605"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ch0096qbymc29gx0m373dfmy5jm6nws3-iputils-20250605",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/xxmmrhx05y6ix7ijvynm83c95c127d9f-iputils-20250605-man",
+              "default": true
+            },
+            {
+              "name": "apparmor",
+              "path": "/nix/store/babg54s32bhn46c20kk3jaq1vcdp83wy-iputils-20250605-apparmor"
+            }
+          ],
+          "store_path": "/nix/store/ch0096qbymc29gx0m373dfmy5jm6nws3-iputils-20250605"
+        }
+      }
+    },
+    "netcat-openbsd@latest": {
+      "last_modified": "2026-02-23T15:40:43Z",
+      "resolved": "github:NixOS/nixpkgs/80d901ec0377e19ac3f7bb8c035201e2e098cc97#netcat-openbsd",
+      "source": "devbox-search",
+      "version": "1.234-1",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dqkxmqkarwny4d1dxrkw2xngv1c0n3ab-netcat-openbsd-1.234-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dqkxmqkarwny4d1dxrkw2xngv1c0n3ab-netcat-openbsd-1.234-1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qlrbxiyp11v97by73173ja5929jmpngi-netcat-openbsd-1.234-1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qlrbxiyp11v97by73173ja5929jmpngi-netcat-openbsd-1.234-1"
+        }
+      }
+    }
+  }
+}
